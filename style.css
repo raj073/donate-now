@@ -176,8 +176,47 @@ body {
     border-radius: 5px;
 }
 
+#sectionRecentActivities {
+    margin-top: 10px;
+    text-align: center;
+}
+
+#sectionRecentActivities h1 {
+    font-size: 40px;
+    color: lightseagreen;
+}
+
+#getRecentActivities {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    min-height: 40vh;
+}
+
+div.ActivitiesImagegallery {
+    margin: 5px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 320px;
+}
+
+div.ActivitiesImagegallery:hover {
+    border: 1px solid #777;
+}
+
+div.ActivitiesImagegallery img {
+    width: 100%;
+    height: auto;
+}
+
+div.activitiesImagedetails {
+    padding: 15px;
+    text-align: center;
+}
+
 #sectionGetMyUpdates {
-    margin-top: 10%;
+    margin-top: 0%;
     text-align: center;
     margin-bottom: 70px;
 }
