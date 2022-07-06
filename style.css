@@ -1,0 +1,250 @@
+body {
+    margin: 0%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+#topPageBanner {
+    background-image: url(images/hero.png);
+    background-repeat: no-repeat;
+    display: flex;
+    height: 450px;
+    background-size: 100%;
+    text-align: center;
+    color: azure;
+    justify-content: center;
+    padding-top: 50px;
+}
+
+#topHeading h1 {
+    font-size: 50px;
+    margin: 30px;
+}
+
+#topHeading p {
+    color: floralwhite;
+    margin-top: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.8;
+    font-weight: bold;
+}
+
+.donateNowButton {
+    background: linear-gradient(45deg, lightsalmon, tomato);
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    color: white;
+    font-weight: 700;
+}
+
+#sectionDonateBox {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+#sectionDonateBox h1 {
+    font-size: 40px;
+    color: lightseagreen;
+}
+
+#sectionDonateBox p {
+    margin-bottom: 40px;
+    color: darkslategrey;
+    font-size: 20px;
+    line-height: 1.5;
+}
+
+.donateBoxContainer {
+    display: flex;
+    margin: 10px 80px;
+    justify-content: center;
+}
+
+.donateBoxAmount {
+    margin-left: 20px;
+    width: 100px;
+    padding: 10px 5px;
+    background-color: rgb(247, 246, 244);
+    border-radius: 10px;
+    color: rgb(139, 140, 140);
+}
+
+.donateBoxAmount-color {
+    margin-left: 20px;
+    width: 100px;
+    padding: 10px 5px;
+    background-color: rgb(251, 225, 213);
+    border: 2px solid tomato;
+    border-radius: 10px;
+    color: tomato;
+}
+
+#inputDonateText {
+    padding: 10px 220px 10px 210px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    text-align: center;
+    border: 1px solid gray;
+    border-top-style: hidden;
+    border-left-style: hidden;
+    border-right-style: hidden;
+}
+
+#inputDonateText:focus {
+    outline: none;
+}
+
+#inputDonateText::placeholder {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    opacity: 1;
+}
+
+#sectionDonatePlan {
+    margin-top: 10px;
+    text-align: center;
+}
+
+#sectionDonatePlan h1 {
+    font-size: 40px;
+    color: lightseagreen;
+}
+
+#sectionDonatePlan p {
+    margin-bottom: 40px;
+    color: darkslategrey;
+    font-size: 20px;
+    line-height: 1.5;
+}
+
+.donatePlanParagraphDetails {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#donatePlanFoodFamily h2 {
+    font-size: 20px;
+}
+
+#donatePlanFoodFamily p {
+    font-weight: normal;
+}
+
+#donatePlanFoodFamily {
+    width: 60%;
+    text-align: left;
+    background-color: rgba(79, 157, 166, 0.1);
+    margin-left: 2%;
+    padding: 2% 2%;
+    border-radius: 5px;
+
+}
+
+#donatePlanShelterFamily h2 {
+    font-size: 20px;
+}
+
+#donatePlanShelterFamily p {
+    font-weight: normal;
+}
+
+#donatePlanShelterFamily {
+    width: 60%;
+    font-size: 8px;
+    text-align: left;
+    background-color: rgba(255, 89, 89, 0.1);
+    margin-left: 2%;
+    padding: 2% 2%;
+    border-radius: 5px;
+
+}
+
+#donatePlanEducationChild h2 {
+    font-size: 20px;
+}
+
+#donatePlanEducationChild p {
+    font-weight: normal;
+}
+
+#donatePlanEducationChild {
+    width: 60%;
+    font-size: 8px;
+    text-align: left;
+    background-color: #FFF4D6;
+    margin-left: 2%;
+    padding: 2% 2%;
+    border-radius: 5px;
+}
+
+#sectionGetMyUpdates {
+    margin-top: 10%;
+    text-align: center;
+    margin-bottom: 70px;
+}
+
+#sectionGetMyUpdates h1 {
+    font-size: 40px;
+    color: tomato;
+    margin-bottom: 0%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#getUpdates {
+    display: flex;
+    justify-content: center;
+}
+
+#getUpdates p {
+    width: 50%;
+    margin-bottom: 10px;
+    color: rgb(152, 147, 147);
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: normal;
+    line-height: 1.8;
+}
+
+#getUpdatesFormContainer {
+    margin: 1% 20%;
+    background-color: #FFF4D6;
+    padding: 8% 1%;
+}
+
+#inputTextEmail {
+    background-color: #D9D9D9;
+    margin: 0px;
+    height: 30px;
+    width: 230px;
+    border-style: hidden;
+    padding: 5px 5px;
+}
+
+#buttonSubscribe {
+    color: white;
+    background-color: tomato;
+    border-style: hidden;
+    padding: 5px 5px;
+    height: 40px;
+    width: 130px;
+}
+
+footer {
+    padding: 10px 10px;
+    margin: 0px;
+    background-color: black;
+    text-align: center;
+}
+
+#footerHeading {
+    color: tomato;
+    margin: 0px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.5;
+}
+
+footer p {
+    margin: 0px;
+    color: floralwhite;
+    line-height: 1.5;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
